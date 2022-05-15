@@ -4,7 +4,7 @@ using namespace std;
 class Animal
 {
     public:
-    void funAnimal()
+    void funAnimall()
     {
         cout<<"Hello I am a Animal"<<endl;
     }
@@ -30,6 +30,6 @@ class Tiger: public Cat{
 int main()
 {
     Tiger obj;
-    obj.funAnimal();
+    obj.funAnimall();
     obj.funCat();
 }
